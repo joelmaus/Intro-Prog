@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:12.13-alpine3.17
+    volumes:
+      - db-dev-data:/var/lib/postgressql/data
+    ports:
+    # external: internal
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=TokyoJoe138!
+
+volumes:
+  db-dev-data:

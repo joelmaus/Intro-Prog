@@ -1,0 +1,27 @@
+<section>
+    <form [formGroup]="form"
+          (ngSubmit)="addItem()">
+        <label for="item">Item:</label>
+        <input class="form-control"
+               id="item"
+               formControlName="item">
+        <button type="submit"
+                class="btn btn-primary">Add Item</button>
+    </form>
+</section>
+<section>
+    <ul class="list-unstyled">
+        <li class="alert"
+            [ngClass]="{'alert-success': !item.purchased, 'alert-info': item.purchased}"
+            *ngFor="let item of items">
+            <span [ngClass]="{purchased: item.purchased}">{{item.description}}</span>
+            <button (click)="markPurchased(item)"
+                    *ngIf="item.purchased === false"
+                    class="btn btn-danger">X</button>
+        </li>
+
+    </ul>
+    <button [disabled]="!hasPurchasedItems"
+            (click)="clearPurchased()"
+            class="btn btn-danger">Clear out Purchased Items</button>
+</section>

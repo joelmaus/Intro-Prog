@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="card-header">
+        <h1>The Learning Resources App</h1>
+    </div>
+    <div class="card-body">
+        <p>This application was created for the Intro to Programming Class.</p>
+    </div>
+    <div class="card-footer">
+        <button (click)="getStatus()"
+                class="btn btn-primary">See The API Status</button>
+
+        <div *ngIf="(responseFromServer$ | async) as response">
+            <p>The status is {{response.message }}</p>
+            <p>Contact for help: {{response.contact }}</p>
+        </div>
+        <span *ngIf="hasError"
+              class="alert alert-danger">Sorry, there was an error with the API.</span>
+
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h1>Preferences</h1>
+    </div>
+    <div class="card-body">
+        <app-counter-prefs></app-counter-prefs>
+    </div>
+</div>

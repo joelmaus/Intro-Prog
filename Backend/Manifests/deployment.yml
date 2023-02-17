@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: learning-resources-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: learning-resources-api
+  template:
+    metadata:
+      labels:
+        app: learning-resources-api
+    spec:
+      containers:
+      - name: learning-resources-api
+        image: resources-api:v0.1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80

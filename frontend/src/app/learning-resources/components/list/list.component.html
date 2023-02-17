@@ -1,0 +1,8 @@
+<ul class="list-unstyled">
+    <li class="alert alert-info"
+        *ngFor="let item of items$ | async">
+        <p>{{item.description}}</p>
+        <p>{{item.link}}</p>
+        <p>This item is a {{ item.type }}</p>
+    </li>
+</ul>

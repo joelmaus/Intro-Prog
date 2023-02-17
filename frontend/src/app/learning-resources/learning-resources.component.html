@@ -1,0 +1,26 @@
+<div class="row feature-body">
+    <section class="col-2">
+        <ul class="nav nav-pills flex-column">
+
+            <li class="nav-item">
+                <a class="nav-link"
+                   [routerLinkActive]="['active']"
+                   routerLink="overview">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                   [routerLinkActive]="['active']"
+                   routerLink="list">List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                   [routerLinkActive]="['active']"
+                   routerLink="new">New</a>
+            </li>
+
+        </ul>
+    </section>
+    <section class="col">
+        <router-outlet></router-outlet>
+    </section>
+</div>

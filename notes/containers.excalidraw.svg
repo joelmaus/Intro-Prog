@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 592 153" width="592" height="153">
+  <!-- svg-source:excalidraw -->
+  <!-- payload-type:application/vnd.excalidraw+json --><!-- payload-version:2 --><!-- payload-start -->eyJ2ZXJzaW9uIjoiMSIsImVuY29kaW5nIjoiYnN0cmluZyIsImNvbXByZXNzZWQiOnRydWUsImVuY29kZWQiOiJ4nM1UW2+bMFx1MDAxNH7vr7Doa5tcdTAwMDJcdTAwMDFcdTAwMDKVpmlds6nrVKk3ddqyXHUwMDA3XHUwMDE3TsDCsZltcmnV/76DXHUwMDEzXHUwMDAxyVape2g1XHUwMDFlLPk7x+c7t4/HPUJcdTAwMWOzqsA5Jlx1MDAwZSxTylmm6MI5aPA5KM2kQJNv71rWKrWehTGVPj46mlFVgqk4TWEwZ7qmXFybOmNykMrZXHUwMDExMzDT75vzgs7gXSVnmVGDjuRcdTAwMTAyZqRac1x1MDAwMYdcdTAwMTlcYqMx+lx1MDAwZrxcdTAwMTPyaM9edlx1MDAwNpbG+lq0yy1OdsFcdTAwMGIpbJq+50d+XHUwMDEwemHcejB9ikxcdTAwMDYyNE8xW+gsXHLkjG/zK82/3dLPN5fm6mH8K79cdTAwMWYmXHUwMDFk65Rxfm1WfN1cdTAwMDSaXHUwMDE2tYLOqo2SJdyxzFx1MDAxNGj3dvD2nZZYf/dKyTovXHUwMDA0aL31RlY0ZWbVYK7bolTkNkaHLPFcdTAwMTZEYXtf2brDXHUwMDFk7o+SY6ORe9+1X8d+T9Myx1x1MDAxNETW+lx1MDAxOEWFrqjCcXR+i01V4chvsVx1MDAwMlheXHUwMDE4XHUwMDA0Rz0+sL2NRlE0Snw3alxyXHJJdZbZXHUwMDAx/+xcdTAwMTcvsk3xoua8y6sxjHtL0b2pq4yuJ+g1NKHvI084au2ciXI3XHUwMDFjl2n5l6FPpTDX7MEui7uFfqIzxldbI7FcdTAwMGKI/Zk4X5mol6TZauxTXG564kxE43JI7inSXHUwMDEwJowkplx1MDAwMFKCXHUwMDEywImc2lx1MDAxYrfPZFx1MDAwNYpcdTAwMWEmcqJXXHUwMDFhxTGYiP44NKBbk1BcdTAwMTRvMX/gLG/W3eEw3daBYaio1mxk1VlTrIRiOHWW7XZEKpYzQfnN61VlqZ5cdTAwMGX+Tc6B95ycvaFcdTAwMTd4wShIglx1MDAxN8s5Ps/q5MQtv5zOv3vnl+N46ZXL/13OUU81Vs5J/GpyXHUwMDFl9qTbyjl0d+Xshf4wdt2kl8nr6XnoejH+uN9Mz3fMXHUwMDE0sjabRcaVVkCwXURI0upHP6fSYPimKn1xrmvt4Wn77NCqujbYZYyxVlwizo9lm1Z1jM6cweLkz1x1MDAxZNqf2q+JavXcKFx1MDAwN5oxPj7tPf1cdTAwMDaQmj+bIn0=<!-- payload-end -->
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.14.1/dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.14.1/dist/excalidraw-assets/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="592" height="153" fill="#ffffff"></rect><g transform="translate(10 10) rotate(0 286 37.5)"><text x="0" y="18" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">"Linux Namespaces"</text><text x="0" y="43" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">    - baked into the kernel of the linux operating system.</text><text x="0" y="68" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr"></text></g><g transform="translate(151 93) rotate(0 187.5 25)"><text x="0" y="18" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">Without linux there are no containers.</text><text x="0" y="43" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr"></text></g></svg>

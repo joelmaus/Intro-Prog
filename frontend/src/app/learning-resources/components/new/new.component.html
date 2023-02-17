@@ -1,0 +1,35 @@
+<form [formGroup]="form"
+      (ngSubmit)="addItem(foci)">
+    <div class="form-group">
+        <label for="description">Description</label>
+        <input class="form-control"
+               autofocus
+               #foci
+               formControlName="description">
+        <div class="alert alert-danger"
+             *ngIf="description.errors && (description.dirty || description.touched)">
+            <p>This is required</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="type">Type</label>
+        <select class="form-control"
+                formControlName="type">
+            <option *ngFor="let option of options">{{option}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="link">Link</label>
+        <input class="form-control"
+               formControlName="link">
+        <div class="alert alert-danger"
+             *ngIf="link.errors && (link.dirty || link.touched)">
+            <p *ngIf="link.hasError('required')">This is for sharing! Please provide a link!</p>
+            <p *ngIf="link.hasError('maxlength')">Too Darned Long!</p>
+            <p *ngIf="link.hasError('minlength')">Too Short!</p>
+
+        </div>
+    </div>
+    <button type="submit"
+            class="btn btn-success">Add This Item</button>
+</form>

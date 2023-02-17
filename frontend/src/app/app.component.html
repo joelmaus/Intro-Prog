@@ -1,0 +1,11 @@
+<header class="container container-fluid">
+  <h1>{{title}}</h1>
+  <h2>For Intro to Programming</h2>
+  <div>
+    <small>By the way your counter is at {{current$ | async}}</small>
+  </div>
+</header>
+<main class="container">
+  <app-navigation></app-navigation>
+  <router-outlet></router-outlet>
+</main>

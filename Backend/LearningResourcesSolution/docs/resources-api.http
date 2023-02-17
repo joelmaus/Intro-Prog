@@ -1,0 +1,27 @@
+
+GET http://localhost:1337/status HTTP/1.1
+
+
+### Another One
+
+GET http://localhost:1337/resources
+
+
+
+### Adding a Resource
+
+POST http://localhost:1337/resources HTTP/1.1
+Content-Type: application/json
+
+{
+    "description": "Demo2",
+    "type": "video",
+    "link": "Some Link"
+}
+
+
+### Getting a Single Item
+
+GET http://localhost:1337/resources/1
+
+# In Htttp Resources are either collections, or "documents"
